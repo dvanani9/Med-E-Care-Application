@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "615677116826",
+    "firebase_url": "https://med-ecare-7b9ad.firebaseio.com",
+    "project_id": "med-ecare-7b9ad",
+    "storage_bucket": "med-ecare-7b9ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615677116826:android:2b5ea57a3a75baed9aba23",
+        "android_client_info": {
+          "package_name": "com.example.med_ecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615677116826-u8uk6te51idvmttr6tff5put8ceabv7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.med_ecare",
+            "certificate_hash": "e18df24f109d77eec322bbcf5ef71b4785d49fc8"
+          }
+        },
+        {
+          "client_id": "615677116826-mkt8fm2b8h8rpkb7tndeeadip6j5ffj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-R88kLf3pxGFhnT6mtdrdXY2rYPxwQYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615677116826-mkt8fm2b8h8rpkb7tndeeadip6j5ffj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

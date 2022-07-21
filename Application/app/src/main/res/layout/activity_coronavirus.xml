@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".Coronavirus">
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="340dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="14dp"
+        android:text="You have Coronavirus!"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintEnd_toEndOf="@+id/textView39"
+        app:layout_constraintStart_toStartOf="@+id/textView39"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="348dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="9dp"
+        android:text="The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell."
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="146dp"
+        android:layout_height="121dp"
+        android:layout_marginBottom="14dp"
+        android:text="
+Causes:
+1.Fever
+2.Cough
+3.Illness
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView41"
+        app:layout_constraintEnd_toEndOf="@+id/textView41"
+        app:layout_constraintStart_toStartOf="@+id/textView39"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="138dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="55dp"
+        android:text="
+Medicine:
+1.Not found yet
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+</android.support.constraint.ConstraintLayout>

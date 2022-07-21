@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Med-Ecare</string>
+    <string-array name="symptoms">
+        <item>Fever</item>
+        <item>Headache</item>
+        <item>Back Pain</item>
+        <item>Migrane</item>
+        <item>Typhoid</item>
+        <item>Fainting</item>
+        <item>Corona Virus</item>
+        <item>Seizure</item>
+        <item>Loose Motion</item>
+        <item>Food Poisoning</item>
+    </string-array>
+
+    <string name="Open">Med-Ecare</string>
+    <string name="Close">Med-Ecare</string>
+</resources>

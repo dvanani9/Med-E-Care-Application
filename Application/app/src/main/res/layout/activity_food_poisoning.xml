@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".FoodPoisoning">
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="343dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="14dp"
+        android:text="You have Stomachache !"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView55"
+        app:layout_constraintEnd_toEndOf="@+id/textView55"
+        app:layout_constraintStart_toStartOf="@+id/textView55"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="348dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="9dp"
+        android:text="Stomachache is an illness caused by eating contaminated food. It's not usually serious and most people get better within a few days without treatment. In most cases of Stomachache, the food is contaminated by bacteria, such as salmonella or Escherichia coli (E. coli), or a virus, such as the norovirus."
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="170dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="14dp"
+        android:text="
+Causes:
+1.Contaminated food
+2.Noro virus
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView57"
+        app:layout_constraintEnd_toEndOf="@+id/textView57"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="196dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="55dp"
+        android:text="
+Medicine:
+1.Medications Antidiarrhoeal
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+</android.support.constraint.ConstraintLayout>

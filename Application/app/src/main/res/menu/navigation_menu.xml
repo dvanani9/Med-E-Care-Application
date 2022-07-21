@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/videos"
+    android:title="Videos"
+    android:icon="@drawable/ic_slideshow_black_24dp">
+
+</item>
+
+    <item
+        android:id="@+id/articles"
+        android:title="Articles"
+        android:icon="@drawable/ic_description_black_24dp">
+
+    </item>
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/ic_help_outline_black_24dp">
+
+    </item>
+
+    <item
+        android:id="@+id/us"
+        android:title="About Us"
+        android:icon="@drawable/ic_person_black_24dp">
+
+    </item>
+</menu>

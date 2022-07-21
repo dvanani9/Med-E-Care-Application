@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".LooseMotion">
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="340dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="14dp"
+        android:text="You have Loose Motions !"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView51"
+        app:layout_constraintEnd_toEndOf="@+id/textView51"
+        app:layout_constraintStart_toStartOf="@+id/textView51"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="348dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="9dp"
+        android:text="Loose motions or Diarrhea is the condition of having three or more loose or liquid bowel movements in a day. It is a common cause of death in developing countries and the second most common reason for infant deaths worldwide. The loss of fluids during loose motion can cause dehydration and electrolyte disturbances."
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="164dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="14dp"
+        android:text="
+Causes:
+1.Overactive thyroid
+2.Skipped meal
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView53"
+        app:layout_constraintEnd_toEndOf="@+id/textView53"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView51"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="138dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="55dp"
+        android:text="
+Medicine:
+1.Kaopectate
+2.Loperamide
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+</android.support.constraint.ConstraintLayout>

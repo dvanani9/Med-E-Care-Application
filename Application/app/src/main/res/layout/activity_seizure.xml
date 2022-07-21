@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".Seizure">
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="340dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="14dp"
+        android:text="You have Seizure !"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView43"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="348dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="9dp"
+        android:text="A seizure is a sudden, uncontrolled electrical disturbance in the brain. It can cause changes in your behavior, movements or feelings, and in levels of consciousness. If you have two or more seizures or a tendency to have recurrent seizures, you have epilepsy. There are many types of seizures, which range in severity."
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="146dp"
+        android:layout_height="121dp"
+        android:layout_marginBottom="14dp"
+        android:text="
+Causes:
+1.Epilepsy
+2.Electric shock
+3.Drug abuse
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toEndOf="@+id/textView45"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="138dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="55dp"
+        android:text="
+Medicine:
+1.Carbamazepine
+2.Oxcarbazepine
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+</android.support.constraint.ConstraintLayout>

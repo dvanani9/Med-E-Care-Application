@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".Backpain">
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="340dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="14dp"
+        android:text="You have Backpain !"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView35"
+        app:layout_constraintEnd_toEndOf="@+id/textView35"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="348dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="9dp"
+        android:text="Back pain, also known as backache, is pain felt in the back. ... Common underlying mechanisms include degenerative or traumatic changes to the discs and facets joints, which can then cause secondary pain in the muscles, and nerves, and referred pain to the bones, joints and extremities"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="146dp"
+        android:layout_height="121dp"
+        android:layout_marginBottom="14dp"
+        android:text="
+Causes:
+1.Osteoporosis
+2.Arthritis
+3.Osteoporosis
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toEndOf="@+id/textView37"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="238dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="55dp"
+        android:text="
+Medicine:
+1.Non-steroidal anti-inflammatory drug
+2.Analgesic
+
+
+"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+</android.support.constraint.ConstraintLayout>

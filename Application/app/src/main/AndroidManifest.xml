@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.med_ecare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity android:name=".coldques"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Cough"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".expity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".contaminated"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".coughques"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".feverquestion"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".coldquestion"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".coughquestion"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Typhoid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FoodPoisoning"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LooseMotion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fever"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Seizure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Coronavirus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Backpain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fainting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Headache"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Migrane"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_11"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".page_14"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".page_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
